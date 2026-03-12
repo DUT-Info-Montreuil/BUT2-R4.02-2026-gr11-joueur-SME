@@ -1,4 +1,4 @@
-package universite_Paris8.iut.qdev.tp2026.gr11.commonsDtos;
+package universite_Paris8.iut.qdev.tp2026.gr11.commons.entites.Dtos;
 
 import universite_Paris8.iut.qdev.tp2026.gr11.enums.LangueEnum;
 
@@ -9,6 +9,7 @@ public class JoueurDTO {
     private int anneeNaissance;
     private LangueEnum languePreferee;
     private int scoreTotal;
+    private String[] centresInteret;
 
     public JoueurDTO(String prenom, String pseudo, int anneeNaissance, LangueEnum languePreferee) {
         this.prenom = prenom;
@@ -16,6 +17,7 @@ public class JoueurDTO {
         this.anneeNaissance = anneeNaissance;
         this.languePreferee = languePreferee;
         this.scoreTotal = 0;
+        this.centresInteret = new String[0];
     }
 
     public String getPrenom() {
@@ -37,4 +39,8 @@ public class JoueurDTO {
     public int getScoreTotal() {
         return scoreTotal;
     }
+
+    public String[] getCentresInteret() { return centresInteret; }
+
+    public void setCentresInteret(String[] centresInteret) { this.centresInteret = centresInteret; }
 }
