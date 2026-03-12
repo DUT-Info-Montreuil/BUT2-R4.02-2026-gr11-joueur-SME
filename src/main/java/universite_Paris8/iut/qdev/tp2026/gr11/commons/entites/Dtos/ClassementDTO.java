@@ -1,4 +1,4 @@
-package universite_Paris8.iut.qdev.tp2026.gr11.commonsDtos;
+package universite_Paris8.iut.qdev.tp2026.gr11.commons.entites.Dtos;
 
 public class ClassementDTO {
 
