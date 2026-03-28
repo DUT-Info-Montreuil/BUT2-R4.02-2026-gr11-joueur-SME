@@ -1,4 +1,4 @@
-package universite_Paris8.iut.qdev.tp2026.gr11.commons.entites.Dtos;
+package universite_Paris8.iut.qdev.tp2026.gr11.commons.entites.dtos;
 
 import universite_Paris8.iut.qdev.tp2026.gr11.enums.LangueEnum;
 
