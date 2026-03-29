@@ -43,4 +43,8 @@ public class JoueurDTO {
     public String[] getCentresInteret() { return centresInteret; }
 
     public void setCentresInteret(String[] centresInteret) { this.centresInteret = centresInteret; }
+
+    public void setScoreTotal(int scoreTotal) {
+        this.scoreTotal = scoreTotal;
+    }
 }
